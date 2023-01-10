@@ -8,8 +8,6 @@
 
 ## 使用
 
-修改 `hoststats-alert.yml` 和 `prometheus.yml` 文件的需要修改为本机IP的地方。
-
 运行以下命令
 
 ```Shell

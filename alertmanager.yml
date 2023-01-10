@@ -7,8 +7,7 @@ route:
 receivers:
   - name: 'web.hook'
     webhook_configs:
-      # 修改成本机IP
-      - url: 'http://172.31.217.31:5000/'
+      - url: 'http://web:5000/'
 inhibit_rules:
   - source_match:
       severity: 'critical'
